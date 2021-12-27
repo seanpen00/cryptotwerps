@@ -4,7 +4,14 @@ import { Container } from "react-bootstrap";
 import InfiniteCarousel from 'react-leaf-carousel';
 
 //import Assets
-import ImageBoy1 from '../../assets/boys/boy1.png';
+import ImageBoy1 from '../../assets/team/1.jpeg';
+import ImageBoy2 from '../../assets/team/2.jpeg';
+import ImageBoy3 from '../../assets/team/3.jpeg';
+import ImageBoy4 from '../../assets/team/4.jpeg';
+import ImageBoy5 from '../../assets/team/5.jpeg';
+import ImageBoy6 from '../../assets/team/6.jpeg';
+import ImageBoy7 from '../../assets/team/7.jpeg';
+import ImageBoy8 from '../../assets/team/8.jpeg';
 
 //import CSS
 import './meet.css';
@@ -55,37 +62,52 @@ class Meet extends React.Component {
                                 scrollOnDevice={true}
                             >
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/1.png"} alt='boy1' />
+                                    <img className="caroImg" src={ImageBoy1} alt='twerp1' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/2.png"} alt='boy2' />
+                                    <img className="caroImg" src="../../assets/team/2.jpeg" alt='twerp2' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/3.png"} alt='boy3' />
+                                    <img className="caroImg" src="../../assets/team/3.jpeg" alt='twerp3' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/4.png"} alt='boy4' />
+                                    <img className="caroImg" src="../../assets/team/4.jpeg" alt='twerp4' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/5.png"} alt='boy5' />
+                                    <img className="caroImg" src="../../assets/team/5.jpeg" alt='twerp5' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/6.png"} alt='boy6' />
+                                    <img className="caroImg" src="../../assets/team/6.jpeg" alt='twerp6' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/7.png"} alt='boy6' />
+                                    <img className="caroImg" src="../../assets/team/7.jpeg" alt='twerp7' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/8.png"} alt='boy6' />
+                                    <img className="caroImg" src="../../assets/team/8.jpeg" alt='twerp8' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/9.png"} alt='boy6' />
+                                    <img className="caroImg" src="../../assets/team/9.jpeg" alt='twerp9' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/10.png"} alt='boy6' />
+                                    <img className="caroImg" src="../../assets/team/10.jpeg" alt='twerp10' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/11.png"} alt='boy6' />
+                                    <img className="caroImg" src="../../assets/team/11.jpeg" alt='twerp11' />
+                                </div>
+                                <div>
+                                    <img className="caroImg" src="../../assets/team/12.jpeg" alt='twerp12' />
+                                </div>
+                                <div>
+                                    <img className="caroImg" src="../../assets/team/13.jpeg" alt='twerp13' />
+                                </div>
+                                <div>
+                                    <img className="caroImg" src="../../assets/team/14.jpeg" alt='twerp14' />
+                                </div>
+                                <div>
+                                    <img className="caroImg" src="../../assets/team/15.jpeg" alt='twerp15' />
+                                </div>
+                                <div>
+                                    <img className="caroImg" src="../../assets/team/16.jpeg" alt='twerp16' />
                                 </div>
                 </InfiniteCarousel>
                 

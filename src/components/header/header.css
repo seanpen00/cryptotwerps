@@ -56,12 +56,12 @@
 
 @font-face {
     font-family: newerfont;
-    src: url(/src/assets/aAtmospheric.ttf);
+    src: url(../../aAtmospheric.ttf);
 }
 
 .header-content h1 {
     font-size: 51px;
-    font-family: newfont;
+    font-family: newerfont;
     color: black;
     /* font-style: italic; */
     margin-bottom: 30px;
