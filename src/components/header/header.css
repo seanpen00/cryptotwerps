@@ -56,7 +56,7 @@
 
 @font-face {
     font-family: newerfont;
-    src: url(../../aAtmospheric.ttf);
+    src: url("https://github.com/seanpen00/cryptotwerps/blob/main/src/aAtmospheric.ttf?raw=true");
 }
 
 .header-content h1 {
@@ -66,7 +66,7 @@
     /* font-style: italic; */
     margin-bottom: 30px;
     margin-top: 30px;
-    font-weight: 900;
+    /* font-weight: 900; */
     text-align: center;
     /* background-color: #6D3612; */
     /* padding: 25px; */
@@ -88,7 +88,6 @@
     margin-right: 20px;
     color: white;
     font-size: 13px;
-    font-weight: 700;
     cursor: pointer;
 }
 .nav-item :hover {
@@ -98,7 +97,7 @@
 .thePicture {
     height: 0px;
     border: solid #632006 0px;
-    border-radius: 0px;
+    border-radius: 20px;
     padding: 0px;
     background-color: #FF9859;
 }
@@ -140,7 +139,7 @@
         border: solid rgb(255, 255, 255)
          10px;
         box-shadow: 0px 0px 100px white;
-        border-radius: 0px;
+        border-radius: 20px;
         padding: 0px;
         background-color: #a14912;
     }

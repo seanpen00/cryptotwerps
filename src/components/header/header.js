@@ -41,7 +41,7 @@ function openSea() {
     window.open("https://opensea.io/"); 
 }
 function onBenefitsClick() {
-    document.getElementById("benefits").scrollIntoView();
+    document.getElementById("faq").scrollIntoView();
 }
 class Header extends React.Component {
     render() {

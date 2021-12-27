@@ -2,7 +2,7 @@
     color: #FF9859;
     /* text-shadow: 1px 0 20px rgb(200 255 0 / 31%); */
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .roadmap-control {
@@ -30,6 +30,9 @@
     color: white;
     text-align: center;
     font-weight: 900;
+}
+.roadmap-description ul {
+    text-align: left;
 }
 
 .roadmap-control img {

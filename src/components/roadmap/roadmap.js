@@ -6,6 +6,7 @@ import './roadmap.css';
 
 //import Assets
 import roadmap from '../../assets/Roadmap.mp4';
+import twerp from '../../assets/team/5.jpeg'
 
 //import Component
 import RoadMapItem from "./roadmapitem";
@@ -46,10 +47,12 @@ class RoadMap extends React.Component {
     render() {
         return (
             <div className='roadmap-control' id='roadmap' style={{ textAlign: "center" }}>
-                <Container style={{ backgroundColor: "#172A55", padding: 30, border: "solid black 10px", borderRadius: 20 }}>
-                    <h1>Roadmap</h1>
+                <Container style={{ backgroundColor: "white", opacity: 1, padding: 30, border: "solid black 10px", borderRadius: 20 }}>
+                    <h1 style={{fontWeight: 900, fontStyle: "italic"}}>Roadmap</h1>
                     <p className='roadmap-description'>
                     Quality comes first. We strive to provide quality artwork, community, and value to our Twerps. The underdogs will rise again. We are focused on organic community growth over time to ensure everyone involved is active and engaged. It is important to us to drive social change with this project and avoid the pitfalls of many of the projects launching.
+                    <br/>
+                    <br/>
                         <ul>
                             <li>Our foremost commitment is delivering value to our community members, in doing so we're prioritizing the artwork and continuous Metaverse development.</li>
                             <li>We want our original supporters to feel the prosperity. Don’t underestimate the underdog.</li>
@@ -57,11 +60,12 @@ class RoadMap extends React.Component {
                             <li>Meanwhile, we’ll be integrating with a number of the largest projects and metaverses currently active on The ethereum network.</li>
                             <li>Crypto Twerp holders will be rewarded the most throughout our journey together.</li>
                         </ul>
-                    Welcome to the fam you Twerps
+                        <br/>
+                    Welcome to the fam you Twerps!
                     </p>
                     <Row style={{ alignContent: "center", justifyContent: "center", textAlign: "center" }}>
                         <Col xs={12} md={6}>
-                            <img  className="roadimage"style={{border:"solid 10px black", borderRadius: 20}}src="https://cdn.dribbble.com/users/35633/screenshots/7704871/media/7b62d4238bb104a065dfeaf8a91a14bb.png?compress=1&resize=800x600" />
+                            <img  className="roadimage"style={{border:"solid 10px black", borderRadius: 20, height:500,}}src={twerp}/>
                         </Col>
                         <Col style={{ color: "white", alignContent: "center", justifyContent: "center", textAlign: "center" }}>
                             {

@@ -6,6 +6,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255,255,255,0.2);
+    color: black;
 }
 
 /* @font-face {
@@ -25,25 +26,44 @@
     font-weight: bold;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #E8B331;
+    background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 6px;
     font-size: 17px;
+    border: solid black 2px;
     /* display: none; */
 }
 
 .collapse-header p {
-    font-family: newerfont;
-    color: #e8b331;
+    /* font-family: newerfont; */
+    color: rgb(0, 0, 0);
     font-weight: 700;
     font-size: 30px;
     margin-left: 20px;
+    text-align: left;
+}
+
+.collapse-headere p {
+    /* font-family: newerfont; */
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: left;
 }
 
 .collapse-content {
     font-size: 18px;
-    color: white;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.collapse-contente {
+    font-size: 18px;
+    color: black;
     font-weight: bold;
     text-align: left;
     padding-left: 20px;

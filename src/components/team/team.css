@@ -9,9 +9,9 @@
 }
 
 .team-control {
+    background-color: white;
     padding-bottom: 60px;
     padding-top: 60px;
-    background-color: #242323;
 }
 
 .team-control header span {
@@ -21,5 +21,6 @@
 
 .team-control-card{
     justify-content: center;
-    text-align: center
+    text-align: center;
+    color: black;
 }

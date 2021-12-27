@@ -5,7 +5,7 @@
 }
 
 .mint-control {
-    background-color: #172A55;
+    background-color: #ffffff;
     /* #172A55 */
     /* #88CDDB */
     padding-top: 60px;
@@ -22,7 +22,7 @@
 
 .mint-description header {
     font-size: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 900;
     font-style: italic;
     line-height: 50px;
@@ -30,11 +30,11 @@
 }
 
 .mint-description header span {
-    color: #88CDDB;
+    color: #000000;
 }
 
 .mint-description p {
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: 900;
@@ -50,7 +50,7 @@
 }
 .mint-description .number-control span{
     font-size: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 900;
 }
 

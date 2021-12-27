@@ -19,14 +19,14 @@ class RoadMapItem extends React.Component {
                 <div onClick={() => {this.setState({open: !this.state.open})}}
                     aria-controls='example'
                     aria-expanded={this.state.open}
-                    className='collapse-header-control' >
-                    <div className='collapse-header'>
-                        <p>{this.props.title}</p>
+                    className='collapse-header-control' style={{color: "black"}} >
+                    <div className='collapse-headere' style={{color: "black"}}>
+                        <p style={{fontWeight: 900}}>{this.props.title}</p>
                     </div>
                     <BsPlusLg />
                 </div>
                 <Collapse in={this.state.open}>
-                    <div id="example" className='collapse-content'>
+                    <div id="example" className='collapse-contente'>
                         <p>{this.props.content}</p>
                         <p>{this.props.content2}</p>
                         <p>{this.props.content3}</p>

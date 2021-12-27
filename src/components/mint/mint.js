@@ -85,13 +85,13 @@ function Mint() {
                         <img src={newMintGif} alt='mint gif' />
                     </Col>
                     <Col md={6} xs={12} className='mint-description'>
-                        <header>MINT YOUR <text style={{ color: "#88CDDB" }}>CRYPTO TWERP</text>
+                        <header>MINT YOUR <text style={{ color: "black" }}>CRYPTO TWERP</text>
                         </header>
-                        <p style={{ textAlign: "center" }}> Claim your UNIQUE CYRPTO TWERP NFT from the limited collection of 7777!</p>
+                        <p style={{ textAlign: "center" }}> Claim your unqiue Crypto Twerp NFT from the limited collection of 7777!</p>
                         <div className='number-control'>
-                            <BsFileMinusFill color='white' size={40} onClick={() => minus_num()} />
+                            <BsFileMinusFill color='black' size={40} onClick={() => minus_num()} />
                             <span id="inputBox">{mintNum}</span>
-                            <BsFilePlusFill color='white' size={40} onClick={() => plus_num()} />
+                            <BsFilePlusFill color='black' size={40} onClick={() => plus_num()} />
                         </div>
                         <p style={{marginTop: 0, marginBottom: 0}}>0.077 ETH + Gas</p>
                         {
@@ -105,7 +105,7 @@ function Mint() {
                                             getData();
                                         }}>CONNECT</button>
                                     {blockchain.errorMsg !== "" ? (
-                                        <div style={{ textAlign: "center", fontSize: 20, color: "white" }}>
+                                        <div style={{ textAlign: "center", fontSize: 20, color: "black" }}>
                                             {blockchain.errorMsg}
                                         </div>
 

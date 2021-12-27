@@ -16,6 +16,36 @@ class RoadMap extends React.Component {
             roadmaps: [
                 {
                     tag: '1',
+                    title: "Benefit 1 - Royalties",
+                    content: "Every month 25% of the royalties from secondary sales will be put into raffles for Crypto Twerp owners to win."
+                },
+                {
+                    tag: '1',
+                    title: "Benefit 2 - Community Wallet",
+                    content: "The community wallet will be funded from initial sales. We’ll also use 25% of the royalties coming in from the secondary market to juice up the prize."
+                },
+                {
+                    tag: '1',
+                    title: "Benefit 3 - Airdrops & Giveaways",
+                    content: "Members have access to exclusive giveaways and airdrops from collaborations, other collections, and contests."
+                },
+                {
+                    tag: '1',
+                    title: "Benefit 4 - Merch",
+                    content: "You’ll find exclusive merchandise, collectible figures & more."
+                },
+                {
+                    tag: '1',
+                    title: "Benefit 5 - Comics",
+                    content: "Coming Soon"
+                },
+                {
+                    tag: '1',
+                    title: "Benefit 6 - Metaverse Integration",
+                    content: "We have claimed property in the Metaverse! Base 7 is on the other side of the portal."
+                },
+                {
+                    tag: '1',
                     title: "Where can I find my Crypto Twerps?",
                     content: "You’ll be able to find your collection of crocs by connecting your Ethereum/MetaMask wallet to OpenSea."
                 },
@@ -40,9 +70,9 @@ class RoadMap extends React.Component {
 
     render() {
         return (
-            <div className='roadmap-control' id='roadmap' style={{ backgroundColor: "black", backgroundImage: "none" }}>
-                <Container style={{ backgroundColor: "black", paddingTop: 100 }}>
-                    <header style={{fontStyle: "normal", color:"white", textAlign: "center" }}><span></span> <br/> FAQ's</header>
+            <div className='roadmap-control' id='faq' style={{ backgroundColor: "white", backgroundImage: "none" }}>
+                <Container style={{ backgroundColor: "white", paddingTop: 0 }}>
+                    <header style={{fontStyle: "normal", color:"black", textAlign: "center" }}><span></span> <br/> Benefits & FAQ's</header>
                     <Row style={{ paddingTop: 0}}>
                         <Col>
                             {
