@@ -82,7 +82,7 @@ function Mint() {
             <Container>
                 <Row>
                     <Col md={6} xs={12} className='mint-image'>
-                        <img src={newMintGif} alt='mint gif' />
+                        <img src={"https://raw.githubusercontent.com/seanpen00/cryptotwerps/main/newgif.gif"} alt='mint gif' />
                     </Col>
                     <Col md={6} xs={12} className='mint-description'>
                         <header>MINT YOUR <text style={{ color: "black" }}>CRYPTO TWERP</text>
@@ -99,11 +99,11 @@ function Mint() {
                                 <div className="flex-column">
                                     <button className='ybutton'
                                         onClick={(e) => {
-                                            console.log("--------")
-                                            e.preventDefault();
-                                            dispatch(connect());
-                                            getData();
-                                        }}>CONNECT</button>
+                                            // console.log("--------")
+                                            // e.preventDefault();
+                                            // dispatch(connect());
+                                            // getData();
+                                        }}>COMING SOON</button>
                                     {blockchain.errorMsg !== "" ? (
                                         <div style={{ textAlign: "center", fontSize: 20, color: "black" }}>
                                             {blockchain.errorMsg}
