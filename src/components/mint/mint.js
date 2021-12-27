@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import MintGif from '../../assets/Collection_GIF.gif';
 import YButton from "../basic/YButton";
 import newMintGif from '../../assets/team/mint.gif'
+import twerp from '../../assets/team/5.jpeg'
 
 import { BsFileMinusFill, BsFilePlusFill } from 'react-icons/bs';
 
@@ -82,7 +83,7 @@ function Mint() {
             <Container>
                 <Row>
                     <Col md={6} xs={12} className='mint-image'>
-                        <img src={"https://raw.githubusercontent.com/seanpen00/cryptotwerps/main/newgif.gif"} alt='mint gif' />
+                        <img src={twerp} alt='mint gif' />
                     </Col>
                     <Col md={6} xs={12} className='mint-description'>
                         <header>MINT YOUR <text style={{ color: "black" }}>CRYPTO TWERP</text>

@@ -51,7 +51,7 @@ class Header extends React.Component {
                 <div className='header-control'>
                     <Navbar collapseOnSelect expand="lg">
                         <Container>
-                            <Navbar.Brand href="#home">
+                            <Navbar.Brand>
                                 <img src={Logo} width={100} height={100} alt='logo' />
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -65,7 +65,7 @@ class RoadMap extends React.Component {
                     </p>
                     <Row style={{ alignContent: "center", justifyContent: "center", textAlign: "center" }}>
                         <Col xs={12} md={6}>
-                            <img  className="roadimage"style={{border:"solid 10px black", borderRadius: 20, height:500,}}src={twerp}/>
+                            <img  className="roadimage"style={{border:"solid 0px black", borderRadius: 20, height:600,}}src={"https://raw.githubusercontent.com/seanpen00/cryptotwerps/main/newgif.gif"}/>
                         </Col>
                         <Col style={{ color: "white", alignContent: "center", justifyContent: "center", textAlign: "center" }}>
                             {
